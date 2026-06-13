@@ -1,0 +1,71 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    align-items: center;
+    margin: 0;
+    text-shadow: 0 0 10px white;
+    font-size: 48px;
+    margin-top: 20px; 
+    animation: entradaAbajo 0.8s ease forwards;
+    
+}
+body{
+    background-color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px 20px 100px;
+  gap: 20px;
+  overflow-y: scroll;  
+}
+p{
+    color: rgb(204, 126, 126);
+     font-size: clamp(13px, 3vw, 20px);
+    text-shadow: 0 0 20px pink;
+    font-style: italic;
+    text-decoration: underline;
+    max-width: 700px;
+    line-height: 1.2;
+}
+.Pablo
+{
+    border: 5px solid pink;
+    border-radius: 50%;
+    background: transparent;
+    width: 200px;
+    height: 200px;
+    
+    
+  
+}
+@keyframes entradaAbajo {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+a{
+  
+  position: fixed;
+  bottom: 20px;       
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ffffff;
+  z-index: 10;
+  font-size: clamp(14px, 4vw, 22px);
+  white-space: nowrap;
+  background-color: #0a0a0a;
+}

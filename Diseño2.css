@@ -1,0 +1,108 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #080808;
+    animation: entradaAbajo 0.8s ease forwards ; 
+
+}
+h1
+{
+    font-size: 48px;
+    box-shadow: 0 0 40px #f0f;
+    opacity: 10;
+    color:white;
+    border-radius: 60px;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.Gen
+{
+   width: clamp(200px, 70vw, 350px);
+    padding: 20px 60px;
+    gap:12px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    background:transparent;
+    box-shadow: 0 0 40px #f0f;
+    border: #080808;
+    color: white;
+
+}
+.btn2
+{
+   width: clamp(200px, 70vw, 350px);
+    padding: 20px 60px;
+    gap:12px;
+    margin-bottom: 30px;
+    margin-top: 3px;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 0 40px #f0f;
+    border: #080808;
+    color: white;
+}
+.btn3{
+   width: clamp(200px, 70vw, 350px);
+      padding: 20px 60px;
+    gap:12px;
+    margin-bottom: 30px;
+    margin-top: 3px;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 0 40px #f0f;
+    border: #080808;
+    color: white;
+}
+
+.Reg{
+   width: clamp(200px, 70vw, 350px);
+      padding: 20px 60px;
+    gap:12px;
+    margin-bottom: 30px;
+    margin-top: 3px;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 0 40px #f0f;
+    border: #080808;
+    color: white;
+}
+.btn4{
+   width: clamp(200px, 70vw, 350px);
+  padding: 20px 60px;
+    gap:12px;
+    margin-bottom: 30px;
+    margin-top: 3px;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 0 40px #f0f;
+    border: #080808;
+    color: white;
+}
+@keyframes entradaAbajo {
+  from {
+    /* así empieza el elemento */
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    /* así termina el elemento */
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
