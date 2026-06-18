@@ -48,10 +48,11 @@ box-shadow: 0 0 25px #ff00ff;
 background: transparent;
 animation: entradaAbajo 0.8s ease forwards;
 opacity: 0;
-rotate:calc(270deg);
+ /*rotate:calc(270deg);*/
  width: clamp(150px, 50vw, 300px);
   height: clamp(150px, 50vw, 300px);
   object-fit: cover;
+
 }
 .Entrar {
   display: block;
