@@ -120,6 +120,7 @@ h1{
   color: white;
   text-shadow: 0 0 40px #d10b0b;
   font-size: clamp(24px, 6vw, 48px);
+ 
 }
 a{
     position: fixed;          /* 👈 siempre fijo abajo */

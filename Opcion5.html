@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Opcion5Diseño.css">
+    <title>Cancion</title>
+</head>
+<body>
+            <h1>Segunda Cancion</h1>
+
+    <audio src="Mario.mp3" id="audio"></audio>
+    <div class="tarjeta">
+    <img src="Nosotros2.jpeg" alt="Portada" class="Portada">
+
+    <div class="info">
+    <p class="Titulo">Regalito e Dios</p>
+    <p class="Artista">Mario Giron</p>
+    </div> 
+
+    <div class="barra-wrap">
+    <div class="barra-fondo">
+        <div class="barra-progreso" id="progreso"></div>
+        </div>
+        <div class="tiempos">
+            <span id="tiempoActual">0:00</span>
+        <span id="tiempoTotal">0:00</span>
+      </div>
+    </div>
+
+     <div class="controles">
+      <button onclick="retroceder()">⏮</button>
+      <button id="btnPlay" onclick="togglePlay()">▶</button>
+      <button onclick="adelantar()">⏭</button>
+    </div>
+
+    <div class="volumen">
+      <span>🔈</span>
+      <input type="range" min="0" max="1" step="0.01" value="0.7" id="volumen" oninput="cambiarVolumen(this.value)">
+      <span>🔊</span>
+    </div>
+
+  </div>
+        <a href="Dentro.html">Volver a las opciones</a>
+        
+  <script src="cancion.js"></script>
+</body>
+</html>
