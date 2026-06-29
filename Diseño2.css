@@ -123,6 +123,36 @@ h1
     border: #080808;
     color: white;
 }
+.btn7
+{
+   width: clamp(200px, 70vw, 350px);
+      padding: 20px 60px;
+    gap:12px;
+    margin-bottom: 30px;
+    margin-top: 3px;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 0 40px #f0f;
+    border: #080808;
+    color: white;
+}
+.btn8
+{
+   width: clamp(200px, 70vw, 350px);
+      padding: 20px 60px;
+    gap:12px;
+    margin-bottom: 30px;
+    margin-top: 3px;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 0 40px #f0f;
+    border: #080808;
+    color: white;
+}
 @keyframes entradaAbajo {
   from {
     /* así empieza el elemento */
