@@ -12,7 +12,7 @@ h1{
     
 }
 body{
-    background-color: #0a0a0a;
+    background: radial-gradient(circle, rgba(147, 51, 234, 0.6) 0%, rgba(214, 10, 10, 1) 70%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ body{
   overflow-y: scroll;  
 }
 p{
-    color: rgb(204, 126, 126);
+    color: #0a0a0a;
      font-size: clamp(13px, 3vw, 20px);
     text-shadow: 0 0 20px pink;
     font-style: italic;

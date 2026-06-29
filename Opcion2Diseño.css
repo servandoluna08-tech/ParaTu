@@ -5,7 +5,7 @@ body{
     align-items: center;
     margin: 0;
     height: 100vh;
-    background-color: #080808;
+    background: radial-gradient(circle, rgba(147, 51, 234, 0.6) 0%, rgba(214, 10, 10, 1) 70%);
     animation: entradaAbajo 0.8s ease forwards ; 
     overflow: hidden;
 }

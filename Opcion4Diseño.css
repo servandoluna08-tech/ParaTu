@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box;}
 
 body{
-    background-color: #0a0a0a;
+    background: radial-gradient(circle, rgba(147, 51, 234, 0.6) 0%, rgba(214, 10, 10, 1) 70%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@ body{
 }
 .tarjeta
 {
-    background: #1a1a2e;
+    background: rgb(109, 12, 12);
   border-radius: 20px;
   padding: 32px;
    width: clamp(240px, 85vw, 300px);
@@ -22,27 +22,27 @@ body{
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  border: 1px solid white;
-  box-shadow: 0 0 30px white;
+  border: 1px solid brown;
+  box-shadow: 0 0 30px brown;
 }
 .Portada{
     width: 200px;
     height: 200px;
     border-radius: 16px;
     object-fit: cover;
-  border: 2px solid white;
-  box-shadow: 0 0 20px white;
+  border: 2px solid brown;
+  box-shadow: 0 0 20px brown;
 }
 .info{text-align: center;}
 
 .Titulo{
-color: white;
+color: red;
 font-size: 16px;
 margin-top: 4px;
 }
 
 .Artista{
-    color: #0db423;
+    color: white;
 font-size: 14px;
 margin-top: 4px;
 }
@@ -51,7 +51,7 @@ margin-top: 4px;
 width: 100%;
 }
 .barra-fondo {
-  background: #333;
+  background: #cf0303;
   border-radius: 4px;
   height: 4px;
   width: 100%;
